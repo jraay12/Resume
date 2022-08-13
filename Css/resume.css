@@ -1,0 +1,66 @@
+.first{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+.about{
+    border: 1px;
+    border-style: solid;
+    border-radius: 40px;
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.about:hover{
+    opacity: 0.5;
+}
+
+.logo{
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+
+#me{
+    margin-left: 600px;
+    
+    
+}
+
+.nav{
+    background-color: teal;
+    list-style-type: none;
+    position:relative; top:0; width:100%;
+    cursor: pointer;
+    
+    }
+
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    }
+.nav li a{
+    text-decoration: none;
+    color:white
+    }
+
+.nav li:hover{
+    background-color: blue;
+    opacity: 0.7;
+}
+
+body{
+    background-image: url(../images/back.jpg);
+}
